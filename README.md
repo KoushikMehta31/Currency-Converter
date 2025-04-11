@@ -22,7 +22,7 @@ A modern and responsive currency converter web application built with **React**,
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](https://via.placeholder.com/400x250.png?text=Light+Mode+UI) | ![Dark Mode](https://via.placeholder.com/400x250.png?text=Dark+Mode+UI) |
+| ![Light Mode](frontend/public/light.png) | ![Dark Mode](https://via.placeholder.com/400x250.png?text=Dark+Mode+UI) |
 
 - Toggle themes using ☀️ / 🌙 button on the top right
 - Built with Tailwind CSS `dark:` classes
