@@ -22,7 +22,7 @@ A modern and responsive currency converter web application built with **React**,
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](frontend/public/light.png) | ![Dark Mode](https://via.placeholder.com/400x250.png?text=Dark+Mode+UI) |
+| ![Light Mode](frontend/public/light.png) | ![Dark Mode](frontend/public/dark.png) |
 
 - Toggle themes using ☀️ / 🌙 button on the top right
 - Built with Tailwind CSS `dark:` classes
@@ -33,7 +33,7 @@ A modern and responsive currency converter web application built with **React**,
 
 | Convert Currency | Conversion History |
 |------------------|--------------------|
-| ![Convert](https://via.placeholder.com/400x250.png?text=Conversion+Action) | ![History](https://via.placeholder.com/400x250.png?text=Conversion+History+List) |
+| ![Convert](frontend/public/convert.png) | ![History](frontend/public/history.png) |
 
 - Automatically logs each conversion
 - Stores amount, currency, date & time, and flag
