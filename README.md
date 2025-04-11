@@ -38,12 +38,9 @@ The application offers a seamless **theme toggle** experience:
 | ![Convert](frontend/public/convert.png) | ![History](frontend/public/history.png) |
 
 The app maintains a local **conversion history** for every currency conversion:
-- Displays converted **amount**, **currency symbol**, **code**, **country name**, and national **flag**.
-- Shows the **date and time** of each conversion.
+- Displays converted **amount**, **currency symbol** and **country name**.
 - Stored in **`localStorage`**, so history persists even after refreshing the page.
 - You can ❌ **delete individual entries** to keep your history clean and relevant.
-
-> 💡 This feature helps track your conversions and revisit past exchanges easily.
 
 ---
 
