@@ -24,8 +24,10 @@ A modern and responsive currency converter web application built with **React**,
 |------------|-----------|
 | ![Light Mode](frontend/public/light.png) | ![Dark Mode](frontend/public/dark.png) |
 
-- Toggle themes using ☀️ / 🌙 button on the top right
-- Built with Tailwind CSS `dark:` classes
+The application offers a seamless **theme toggle** experience:
+- ☀️ Light Mode provides a clean, bright interface.
+- 🌙 Dark Mode is ideal for low-light environments and is easy on the eyes.
+- Toggle between modes using the sun/moon icon at the top-right.
 
 ---
 
@@ -35,9 +37,13 @@ A modern and responsive currency converter web application built with **React**,
 |------------------|--------------------|
 | ![Convert](frontend/public/convert.png) | ![History](frontend/public/history.png) |
 
-- Automatically logs each conversion
-- Stores amount, currency, date & time, and flag
-- Uses `localStorage` so data persists after refresh
+The app maintains a local **conversion history** for every currency conversion:
+- Displays converted **amount**, **currency symbol**, **code**, **country name**, and national **flag**.
+- Shows the **date and time** of each conversion.
+- Stored in **`localStorage`**, so history persists even after refreshing the page.
+- You can ❌ **delete individual entries** to keep your history clean and relevant.
+
+> 💡 This feature helps track your conversions and revisit past exchanges easily.
 
 ---
 
@@ -46,13 +52,3 @@ A modern and responsive currency converter web application built with **React**,
 - **Frontend**: React.js, Tailwind CSS, React Icons
 - **Backend**: Node.js, Express.js, dotenv, axios
 - **API**: [FreeCurrencyAPI](https://freecurrencyapi.com/)
-
----
-
-## 📦 Installation & Usage
-
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/your-username/currency-converter.git
-cd currency-converter
